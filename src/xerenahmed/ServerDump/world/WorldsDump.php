@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace xerenahmed\ServerDump\world;
 
 use pocketmine\Server;
-use pocketmine\utils\Process;
 
 class WorldsDump implements \JsonSerializable{
 	public function __construct(

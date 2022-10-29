@@ -6,6 +6,7 @@ namespace xerenahmed\ServerDump;
 
 use pocketmine\Server;
 use pocketmine\utils\Process;
+use function number_format;
 
 class MemoryDump implements \JsonSerializable{
 	public function __construct(
@@ -14,7 +15,7 @@ class MemoryDump implements \JsonSerializable{
 
 	public function jsonSerialize(): mixed{
 		$mUsage = Process::getAdvancedMemoryUsage();
-		$format = function(int $bytes) : string{
+		$format = function(int $bytes): string{
 			return number_format($bytes / 1024 / 1024, 2) . " MB";
 		};
 

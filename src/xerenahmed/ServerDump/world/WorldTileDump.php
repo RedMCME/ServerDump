@@ -6,6 +6,7 @@ namespace xerenahmed\ServerDump\world;
 
 use pocketmine\block\tile\Tile;
 use pocketmine\block\tile\TileFactory;
+use function get_class;
 
 class WorldTileDump implements \JsonSerializable{
 	public function __construct(

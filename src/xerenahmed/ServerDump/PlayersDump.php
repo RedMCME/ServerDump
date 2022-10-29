@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace xerenahmed\ServerDump;
 
 use pocketmine\Server;
-use pocketmine\utils\Process;
 
 class PlayersDump implements \JsonSerializable{
 	public function __construct(

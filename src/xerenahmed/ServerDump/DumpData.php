@@ -6,6 +6,7 @@ namespace xerenahmed\ServerDump;
 
 use pocketmine\Server;
 use xerenahmed\ServerDump\world\WorldsDump;
+use function count;
 
 class DumpData implements \JsonSerializable{
 	public function __construct(

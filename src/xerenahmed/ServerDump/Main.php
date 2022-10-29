@@ -8,6 +8,14 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\plugin\PluginBase;
 use Webmozart\PathUtil\Path;
+use function array_shift;
+use function date;
+use function fclose;
+use function fopen;
+use function fwrite;
+use function json_encode;
+use function str_contains;
+use function str_starts_with;
 
 class Main extends PluginBase{
 

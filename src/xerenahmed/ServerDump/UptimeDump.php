@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace xerenahmed\ServerDump;
 
 use pocketmine\Server;
+use function floor;
+use function microtime;
 
 class UptimeDump implements \JsonSerializable{
 	public function __construct(
