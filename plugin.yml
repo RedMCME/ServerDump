@@ -1,0 +1,16 @@
+name: ServerDump
+api: 4.0.0
+main: xerenahmed\ServerDump\Main
+author: xerenahmed
+version: 1.0.0
+
+commands:
+  dd:
+    description: "Dump Server Data"
+    permission: "serverdump.command"
+    usage: "/dd"
+    aliases: [ "dump" ]
+
+permissions:
+  serverdump.command:
+    default: op
