@@ -2,6 +2,8 @@
   "name": "xerenahmed/server-dump",
   "type": "project",
   "license": "Apache-2.0",
+  "require": {
+  },
   "require-dev": {
     "pocketmine/pocketmine-mp": "^4.0.0",
     "phpstan/phpstan": "^1.8",
