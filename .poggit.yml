@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/RedMCME/ServerDump
+build-by-default: true
+branches:
+- main
+projects:
+  ServerDump:
+    path: ""
+...
